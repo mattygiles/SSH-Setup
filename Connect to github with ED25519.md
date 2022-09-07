@@ -1,6 +1,6 @@
 # Connect to github with ED25519
 
-2017/08/09
+Updated: 09/07/2022
 MacOS
 
 ## Check SSH key
