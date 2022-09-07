@@ -14,7 +14,7 @@ ls
 * -a : show all file
 * -l : show file details
 
-## Generate SSH key
+## Generate SSH key (If You Don't Have One)
 
 ```
 $ cd ~/.ssh
@@ -22,7 +22,8 @@ $ ssh-keygen
 ```
 
 ssh-keygen
-Defaults to rsa
+Defaults to RSA
+RSA keys are the most widely used, and so seem to be the best supported.
 
 * RSA (Rivest–Shamir–Adleman)is one of the first public-key cryptosystems and is widely used for secure data transmission. It's security relies on integer factorization, so a secure RNG (Random Number Generator) is never needed. Compared to DSA, RSA is faster for signature validation but slower for generation.
 
@@ -35,6 +36,7 @@ Defaults to rsa
 * Ed25519, is the EdDSA signature scheme, but using SHA-512/256 and Curve25519; it's a secure elliptical curve that offers better security than DSA, ECDSA, & EdDSA, plus has better performance (not humanly noticeable).
 
 ## Upload the public key to the remote server
+Run the command below in Terminal
 
 ```
 ssh-copy-id -i ~/.ssh/id_rsa.pub remote-user@remote-host
