@@ -24,7 +24,9 @@ $ ssh-keygen
 ```
 
 ssh-keygen
+
 Defaults to RSA
+
 RSA keys are the most widely used, and so seem to be the best supported.
 
 <details>
