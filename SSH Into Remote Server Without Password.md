@@ -23,14 +23,13 @@ $ cd ~/.ssh
 $ ssh-keygen
 ```
 
-ssh-keygen
-
+ssh-keygen: 
 Defaults to RSA
 
-RSA keys are the most widely used, and so seem to be the best supported.
 
 <details>
   <summary>Learn more</summary>
+  
 * RSA (Rivest–Shamir–Adleman)is one of the first public-key cryptosystems and is widely used for secure data transmission. It's security relies on integer factorization, so a secure RNG (Random Number Generator) is never needed. Compared to DSA, RSA is faster for signature validation but slower for generation.
 
 * DSA (Digital Signature Algorithm) is a Federal Information Processing Standard for digital signatures. It's security relies on a discrete logarithmic problem. Compared to RSA, DSA is faster for signature generation but slower for validation. Security can be broken if bad number generators are used.
