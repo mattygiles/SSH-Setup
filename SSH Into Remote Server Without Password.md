@@ -39,6 +39,7 @@ RSA keys are the most widely used, and so seem to be the best supported.
 
 * Ed25519, is the EdDSA signature scheme, but using SHA-512/256 and Curve25519; it's a secure elliptical curve that offers better security than DSA, ECDSA, & EdDSA, plus has better performance (not humanly noticeable).
 </details>
+<br></br>
 
 ## Upload the public key to the remote server
 Run the command below in Terminal
