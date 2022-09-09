@@ -1,4 +1,4 @@
-# SSH Into Remote Server Without Password
+# SSH Into Remote Server Without Password Mac Setup
 
 Updated: 09/07/2022
 MacOS
