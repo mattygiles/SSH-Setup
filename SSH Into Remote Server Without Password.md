@@ -38,7 +38,7 @@ RSA keys are the most widely used, and so seem to be the best supported.
 * EdDSA (Edwards-curve Digital Signature Algorithm) is a digital signature scheme using a variant of Schnorr signature based on Twisted Edwards curves. Signature creation is deterministic in EdDSA and its security is based on the intractability of certain discrete logarithm problems, so it's safer than DSA & ECDSA which requires high quality randomness for each and every signature.
 
 * Ed25519, is the EdDSA signature scheme, but using SHA-512/256 and Curve25519; it's a secure elliptical curve that offers better security than DSA, ECDSA, & EdDSA, plus has better performance (not humanly noticeable).
-<details>
+</details>
 <br></br>
 
 ## Upload the public key to the remote server
