@@ -1,4 +1,4 @@
-# Connect to github with ED25519
+# Connect to github with ED25519 on Mac
 
 Updated: 09/07/2022
 MacOS
